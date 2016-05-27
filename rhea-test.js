@@ -9,7 +9,7 @@ assert.equal = function(a, b) {
 }
 
 describe("Rhea", function() {
-  var rhea = new CassowaryRhea();
+  var rhea = new CassowaryRhea("/lively4/rhea/rhea.emscripten.js");
 
   beforeEach(function () {
     this.rc = new rhea.ReferenceCounterRoot();

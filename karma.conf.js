@@ -4,7 +4,7 @@ module.exports = function(config) {
         files: [
             'node_modules/babelify/node_modules/babel-core/browser-polyfill.js',
             "rhea.js",
-            "tests.js",
+            "rhea-test.js",
             {pattern: "rhea.emscripten.js", included: false}
         ],
         proxies: {
