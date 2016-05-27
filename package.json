@@ -1,5 +1,5 @@
 {
-  "name": "deltablue.js",
+  "name": "rhea.js",
   "version": "0.1.0",
   "description": "The DeltaBlue finite domain solver in JavaScript",
   "author": "Tim Felgentreff <tim.felgentreff@hpi.de>",
@@ -26,10 +26,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/babelsberg/deltablue.js"
+    "url": "https://github.com/babelsberg/rhea.js"
   },
   "bugs": {
-    "url": "https://github.com/babelsberg/deltablue.js/issues"
+    "url": "https://github.com/babelsberg/rhea.js/issues"
   },
   "license": "BSD 3-clause"
 }
