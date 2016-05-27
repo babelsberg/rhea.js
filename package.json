@@ -1,7 +1,7 @@
 {
   "name": "rhea.js",
   "version": "0.1.0",
-  "description": "The DeltaBlue finite domain solver in JavaScript",
+  "description": "The Cassowary solver written in C++ compiled to JavaScript",
   "author": "Tim Felgentreff <tim.felgentreff@hpi.de>",
   "contributors": [
     {
@@ -18,7 +18,7 @@
     "karma": "^0.13.8",
     "karma-browserify": "^4.3.0",
     "karma-mocha": "^0.2.0",
-    "karma-chrome-launcher": "^0.2.1",
+    "karma-chrome-launcher": "^0.2.0",
     "mocha": "^2.2.5"
   },
   "scripts": {
