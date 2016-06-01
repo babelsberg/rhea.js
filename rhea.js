@@ -443,4 +443,15 @@ export default class CassowaryRhea {
     solve() {
         this.solver.solve();
     }
+    
+    supportsMethods() { return false; }
+    supportsSoftConstraints() { return true; }
+    supportsFiniteDomains() { return false; }
+    supportedDataTypes() {
+      // Cassowary does not support strings, but there are actively used scenarios
+      // where js-coercion from string to float is used - these cases would be blown
+      return ['number', 'string']; /* XXX: is this correct? */
+    }
 }
+
+CassowaryRhea.solverName = 'CassowaryRhea'
